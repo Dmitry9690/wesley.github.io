@@ -1,0 +1,447 @@
+/* start reset css */
+html,body,div,span,applet,object,iframe,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video { border: 0; font-size: 100%; font: inherit; vertical-align: baseline; margin: 0; padding: 0; }
+h1 {font-size: 14px;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section { display: block; }
+html,textarea { overflow: auto; }
+body { line-height: 1; background: url(http://4.firepic.org/4/images/2013-12/10/6aokfb3iusp5.jpg) repeat center top #2c2a28 fixed; font-family: Lucida Console; font-size: 14px; color: #444444; }
+a { color: #fff; font-family: Tahoma; font-size: 14px; text-decoration: none }
+a:hover {color: #1c1c1c;}
+ol,ul { list-style: none; }
+blockquote,q { quotes: none; }
+blockquote:before,blockquote:after,q:before,q:after { content: none; }
+table{ border-collapse: collapse; border-spacing: 0; }
+img { vertical-align: top; }
+:focus { outline: none; }
+/* end reset css */
+
+/*
+float: left, float: right clears automatically
+
+inline-block is working for Internet Explorer 7
+
+internet explorer class:
+.ie .class { background: red; }
+.ie7 .class { background: red; }
+.ie8lte .class { background: red; }
+.ie8 .class { background: red; }
+.ie8gte .class { background: red; }
+.ie9 .class { background: red; }
+*/
+.center_price a:hover {color: #00BFFF;}
+.center_price a {font-weight: bold;}
+#infopage_table td {border: none;}
+#infopage_table td.header {color: #c11313; padding: 20px 0px 5px 0px; border: none;}
+#wrapper { width: 1109px; margin: 0 auto; }
+.header { height: 221px; overflow: hidden }
+.hnav { border-radius: 5px 5px 5px 5px;
+ -o-border-radius: 5px 5px 5px 5px;
+ -webkit-border-radius:5px 5px 5px 5px;
+ -moz-border-radius:5px 5px 5px 5px;
+ position: relative;
+ margin-top: 25px;
+ height: 44px;
+ background: #00b4ff; /* Old browsers */
+background: -moz-linear-gradient(top,  #00b4ff 0%, #0097d6 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#00b4ff), color-stop(100%,#0097d6)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #00b4ff 0%,#0097d6 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #00b4ff 0%,#0097d6 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #00b4ff 0%,#0097d6 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #00b4ff 0%,#0097d6 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b4ff', endColorstr='#0097d6',GradientType=0 ); /* IE6-9 */
+}
+.hnav ul { padding: 7px 5px 0 5px }
+.hnav li { display: block; float: left; position: relative }
+.hnav li a { display: block; height: 35px;  color: #1с1с1с; font-size: 14px; font-weight: bold; line-height: 30px; padding: 0 15px;}
+.hnav li a:hover { 
+}
+.hnav li a:active { background: url(../img/hnav_h.png) no-repeat 0 top}
+.hnav li.leveled a:hover { background: url(../img/hnav_h.png) no-repeat center 0; }
+.hnav li.leveled_current { background: url(../img/hnav_h.png) no-repeat center 0; }
+.hnav li div { display: none; background: url("http://img.steamke.ru/images/index2psp.png") repeat scroll left top #00A1FB ; width: 150px; position: absolute; z-index: 99999;}
+.hnav li:hover div { display: block; }
+/*.hnav div a { line-height: 45px !important }
+/*.hnav div a:hover { background: url(../img/hnav_h.png) no-repeat 0 -25px !important; }*/
+
+.side_main { overflow: hidden; margin: 19px 0 20px 0}
+.side_left { float: left; width: 263px }
+.side_right { float: right; width: 269px }
+.side_center { margin: 0 271px;margin-right: 0; }
+.blockcontent { background: url(../img/blockcontent.png) repeat-y; width: 233px; overflow: hidden; padding: 10px 18px }
+.bnav li { display: block }
+.bnav li a { display: block; height: 35px; border-bottom: 2px solid #00C1FC;font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif; font-size: 14px; text-transform: uppercase; line-height: 47px; vertical-align: bottom; color: #eceff1;}
+.bnav li:hover a { border-bottom: 2px solid #10c0fa; text-decoration: none }
+.bnav li.row1 a { background: url(../img/icons/1.png) no-repeat left 10px; display: block; padding: 0 0 0 25px}
+.bnav li.row2 a { background: url(../img/icons/2.png) no-repeat left 10px; display: block; padding: 0 0 0 25px}
+.bnav li.row3 a { background: url(../img/icons/3.png) no-repeat left 10px; display: block; padding: 0 0 0 25px}
+.bnav li.row4 a { background: url(../img/icons/4.png) no-repeat left 10px; display: block; padding: 0 0 0 25px}
+.bnav li.row5 a { background: url(../img/icons/5.png) no-repeat left 10px; display: block; padding: 0 0 0 25px}
+.bnav li.row6 a { background: url(../img/icons/6.png) no-repeat left 10px; display: block; padding: 0 0 0 25px}
+.bnav li.row7 a { background: url(../img/icons/7.png) no-repeat left 10px; display: block; padding: 0 0 0 25px}
+.bnav li.row8 a { background: url(../img/icons/8.png) no-repeat left 10px; display: block; padding: 0 0 0 25px}
+.bnav li.row9 a { background: url(../img/icons/9.png) no-repeat left 10px; display: block; padding: 0 0 0 25px}
+.bnav li.row10 a { background: url(../img/icons/10.png) no-repeat left 10px; display: block; padding: 0 0 0 25px}
+
+ .bnav li.row1:hover a { background: url(../img/icons/hovered/1.png) no-repeat left 10px; display: block; padding: 0 0 0 25px}
+.bnav li.row2:hover a { background: url(../img/icons/hovered/2.png) no-repeat left 10px; display: block; padding: 0 0 0 25px}
+.bnav li.row3:hover a { background: url(../img/icons/hovered/3.png) no-repeat left 10px; display: block; padding: 0 0 0 25px}
+.bnav li.row4:hover a { background: url(../img/icons/hovered/4.png) no-repeat left 10px; display: block; padding: 0 0 0 25px}
+.bnav li.row5:hover a { background: url(../img/icons/hovered/5.png) no-repeat left 10px; display: block; padding: 0 0 0 25px}
+.bnav li.row6:hover a { background: url(../img/icons/hovered/6.png) no-repeat left 10px; display: block; padding: 0 0 0 25px}
+.bnav li.row7:hover a { background: url(../img/icons/hovered/7.png) no-repeat left 10px; display: block; padding: 0 0 0 25px}
+.bnav li.row8:hover a { background: url(../img/icons/hovered/8.png) no-repeat left 10px; display: block; padding: 0 0 0 25px}
+.bnav li.row9:hover a { background: url(../img/icons/hovered/9.png) no-repeat left 10px; display: block; padding: 0 0 0 25px}
+.bnav li.row10:hover a { background: url(../img/icons/hovered/10.png) no-repeat left 10px; display: block; padding: 0 0 0 25px}
+.b2 { margin: 20px 0 0 0 }
+.bprofile li { display: block }
+.bprofile li a { display: block; height: 35px; border-bottom: 2px solid #00C1FC; font-family: Arial; font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif; font-size: 14px; text-transform: uppercase; line-height: 47px; vertical-align: bottom; color: #eceff1; background: url(../img/icons/11.png) no-repeat left 10px; display: block; padding: 0 0 0 25px }
+.bprofile li.row2 { background: url(../img/icons/12.png) no-repeat left 10px; display: block; padding: 0 0 0 25px; height: 35px; line-height: 44px; font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif; font-size: 14px; color: #fff}
+.bprofile li.row3 { background: url(../img/icons/13.png) no-repeat left 10px; display: block; padding: 0 0 0 25px; height: 35px; line-height: 42px; font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif; font-size: 14px; color: #fff}
+.bprofile li.row4 { background: url(../img/icons/14.png) no-repeat left 10px; display: block; padding: 0 0 0 25px; height: 35px; line-height: 42px; font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif; font-size: 14px; color: #fff}
+.blocktitle { display: block; height: 35px; border-bottom: 2px solid #00C1FC; font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif; font-size: 14px; text-transform: uppercase; line-height: 47px; vertical-align: bottom; color: #eceff1; background: url(../img/icons/15.png) no-repeat left 10px; display: block; padding: 0 0 0 25px }
+.blocktitle2 { display: block; height: 35px; border-bottom: 2px solid #00C1FC;  font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif; font-size: 14px; text-transform: uppercase; line-height: 47px; vertical-align: bottom; color: #eceff1; background: url(../img/icons/17.png) no-repeat left 10px; display: block; padding: 0 0 0 25px }
+.steamorigin { display: block; height: 35px; border-bottom: 2px solid #00C1FC;  font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif; font-size: 14px; text-transform: uppercase; line-height: 47px; vertical-align: bottom; color: #eceff1; background: url(../img/icons/6.png) no-repeat left 10px; display: block; padding: 0 0 0 25px }
+.lastsell { display: block; height: 35px; border-bottom: 2px solid #00C1FC;  font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif; font-size: 14px; text-transform: uppercase; line-height: 47px; vertical-align: bottom; color: #eceff1; background: url(../img/icons/7.png) no-repeat left 10px; display: block; padding: 0 0 0 25px }
+.topsell { display: block; height: 35px; border-bottom: 2px solid #00C1FC;  font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif; font-size: 14px; text-transform: uppercase; line-height: 47px; vertical-align: bottom; color: #eceff1; background: url(../img/icons/5.png) no-repeat left 10px; display: block; padding: 0 0 0 25px }
+.bcont { color: #fff; padding: 10px 0; width: 217px; margin: 0 0 0 8px}
+.binf_b { width: 217px; background: rgba(5,215,253, 0.3); padding: 0 0 10px 0; margin: 0 0 16px 0}
+.binf_b:hover {  background: rgba(255,3,104,0.3);}
+.binf_text { padding:  10px; text-align: center; }
+.binf_text a { font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif; font-size: 14px; }
+.binf_img { margin: 0 0 0 11px }
+.binf_blue {  margin: 16px 0 }
+.center_container { background: #efefef repeat; 
+box-shadow: 0px 0px 5px #2f2f2f inset;}
+.center_title { display: block; height: 35px; border-bottom: 2px solid #00C1FC; font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif; font-size: 14px; text-transform: uppercase; line-height: 47px; vertical-align: bottom; color: #eceff1; background: url(../img/icons/16.png) no-repeat left 10px; display: block; padding: 0 0 0 25px; margin: 0  }
+.center_naim { float: left; font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif; font-size: 14px; text-transform: uppercase; color: #fff; padding: 14px 0 0 0 }
+.center_price { float: right; font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif; font-size: 14px; text-transform: uppercase; color: #fff; padding: 14px 0 0 0 }
+.center_pos {  }
+.center_cont2  { margin: 25px 0 0 0 }
+.price_list { margin: 10px 0 0 0 }
+.price_list li { display: block; position: relative; border-bottom: 1px solid #00C1FC; width: 503px; padding: 0 0 5px 0; height: 20px; line-height: 22px }
+.price_list .price_l { float: left }
+.price_list .price_r { float: right; color: #efb708; font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif; font-size: 14px;   }
+.price_l a { color: #f6f9fb; font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif; font-size: 14px; }
+.price_l a:hover { border-bottom: 1px dashed #fff; text-decoration: none }
+.price_list li:hover { background:rgba(0,0,0,0.2); }
+a.logo { float: left; display: block; background: url(../img/logo.png) no-repeat; height: 131px; width: 574px; margin: 74px 0 0 36px }
+a.logo:hover { opacity: 0.8 }
+.center_title2 { display: block; height: 35px; border-bottom: 2px solid #00C1FC; font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif; font-size: 14px; text-transform: uppercase; line-height: 47px; vertical-align: bottom; color: #eceff1; background: url(../img/icon_order.png) no-repeat left 10px; display: block; padding: 0 0 0 30px; margin: 0  }
+.center_title3 { display: block; height: 35px; border-bottom: 2px solid #00C1FC; font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif; font-size: 14px; text-transform: uppercase; line-height: 47px; vertical-align: bottom; color: #eceff1; background: url(../img/comp_ico.png) no-repeat left 10px; display: block; padding: 0 0 0 36px; margin: 0  }
+.center_title3 a {font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif; font-size: 14px; text-transform: uppercase;  }
+.center_cont2 table td { border-bottom: 1px solid #00C1FC; font-family: Tahoma; font-size: 13px; color: #eceff1; padding: 0 3px }
+.center_cont2 table td:nth-child(1) { border-top: 1px solid #00C1FC; border-right: 1px solid #00C1FC }
+.center_cont2 table td:nth-child(2) { border-top: 1px solid #00C1FC; }
+.center_cont2 table td:nth-child(15) { border: none; }
+.center_cont2 table td table td:nth-child(1), .center_cont2 table td table td:nth-child(2) { border: none; }
+.center_cont2 table td:nth-child(1) { text-align: right; height: 30px; vertical-align: middle }
+.center_cont2 table td:nth-child(2) { vertical-align: middle }
+.table_otz td { padding: 5px; }
+.center_cont2 img { margin: 0 0 5px 0 }
+a.zoom_ico { margin: 0 0 0 66px }
+a.otz_positive { display: block; background: url(../img/view_good.png) no-repeat; height: 22px; width: 149px;}
+a.otz_negative { display: block; background: url(../img/view_bad.png) no-repeat; height: 22px; width: 149px;}
+.order_bt { display: block; background: url(../img/buy.png) no-repeat; height: 38px; width: 116px; margin: 15px;cursor:pointer;border:none;}
+.cont_width { width: 503px; color: #969696; font-size: 13px; line-height: 15px; text-align: justify; color: #fff;  }
+.viewn_b { height: 21px; background: url(../img/viewn_b.jpg) repeat-x; position: relative; margin: 15px 0 0 0}
+.viewn_b_l { position: absolute; top: 3px; left: 5px; }
+.viewn_b_l a {color: #fff;font-family: Tahoma; font-size: 13px; font-weight: bold  }
+.viewn_b_r { position: absolute; right: 5px; top: 3px; }
+.viewn_b_r, .viewn_b_r a {color: #fff;font-family: Tahoma; font-size: 13px; font-weight: bold    }
+.naim { overflow: hidden }
+a.all_news { background: url(../img/all_news.png) no-repeat; height: 32px; width: 186px; display: block; margin: 0 auto 15px auto }
+.list ol a {padding: 3px 0px;display: inline-block; font-family:"Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Tahoma; font-size: 14px; text-decoration:underline;}
+.list ol a:hover {padding: 3px 0px;display: inline-block;  font-family:"Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Tahoma; font-size: 14px; text-decoration:underline;color:#daa707;}
+a#move_up {
+    position: fixed;
+    top: 0;
+    width: 7%;
+    height: 100%;
+    display: none;
+    text-align: center;
+    font: bold 12px Verdana, sans-serif;
+    text-decoration: none;
+    color: #fff;
+    padding-top: 10px;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    left: 0;
+}
+
+a#move_up:hover {
+    background: #78787A;
+    opacity: 0.5;
+    filter: alpha(opacity=80);
+}
+
+/*--- menubox--------------------------------------*/
+div#menubox{
+	height:55px;
+	background:#067bff;
+	position:relative;
+	z-index: 1;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	-khtml-border-radius:5px;
+	border-radius:5px;
+	}
+div#menubox div.logo{
+	float:left;
+	width:250px;
+	height:55px;
+	padding:0 0 0 25px;
+	}
+div#menubox div.logo a{
+	display:block;
+	overflow:hidden;
+	text-indent:-9999px;
+	padding:18px;
+	background:url(http://steamke.ru/images/index_10.png) no-repeat left top;
+	}
+div.menu{
+	float:right;
+	height:55px;
+	background:url(http://steamke.ru/images/index_06.png) no-repeat 0px -1px;
+	padding:0 0 0 75px;
+	}
+div.menu ul#nav{
+	display:block;
+	height:55px;
+	background:url(http://steamke.ru/images/index_078.png) repeat-x 0px -1px;
+	position:relative;
+	-moz-border-radius:0 5px 5px 0;
+	-webkit-border-radius:0 5px 5px 0;
+	-khtml-border-radius:0 5px 5px 0;
+	border-radius:0 5px 5px 0;
+	}
+div.menu ul#nav li{
+	float:left;
+	list-style:none;
+	height:40px;
+	padding:15px 0 0 0;
+	position:relative;
+	}
+div.menu ul#nav li a{
+	font-size:24px;
+	color:#fff;
+	font-family:Tahoma, sans-serif;
+	text-decoration:none;
+	padding:0 15px;
+	}
+div.menu ul#nav li:hover{
+	background:url(http://steamke.ru/images/index_0354.png) no-repeat center 42px;
+	}
+div.menu ul#nav  li ul.submenu{
+	display:none;
+	}
+div.menu ul#nav  li:hover ul.submenu{
+	display:block;
+	position:absolute;
+	top:55px;
+	left:0px;
+	background:#067bff;
+	-moz-border-radius:0px;
+	-webkit-border-radius:0px;
+	-khtml-border-radius:0px;
+	border-radius:0px;
+	min-width:175px;
+	padding:0 0 10px;
+	}
+div.menu ul#nav  li ul.submenu li{
+	float:none;
+	height:auto;
+	padding:0 15px;
+	}
+div.menu ul#nav li ul.submenu li a{
+	display:block;
+	background:url(http://steamke.ru/images/index_0721.png) no-repeat center bottom;
+	color:#fff;
+	font-size:16px;
+	padding:12px 0 12px 12px;
+	}
+div.menu ul#nav li ul.submenu li:hover{
+	background:#0068de;
+	}
+div.menu ul#nav li ul.submenu li:hover a{
+	background:#0068de;
+	}
+/*--- topbanner--------------------------------------*/
+
+/*--- content, box--------------------------------------*/
+div.box{
+	position:relative;
+	border:1px solid #414141;
+	background:#fff;
+	padding:1px;
+	margin:0 0 10px;
+	}
+div.box h3.title{
+	height:27px;
+	padding:14px 0 0 12px;
+	text-align:left;
+	font-size:15px;
+	color:#fff;
+	background:url(http://steamke.ru/images/index_22.png) repeat-y;
+	}
+/*--- boxmenu--------------------------------------*/
+ul.boxmenu{
+	display:block;
+	background:#00a1fb url(http://steamke.ru/images/index_22.jpg) no-repeat left top;
+	padding:0 0 25px;
+	}
+ul.boxmenu li{
+	list-style:none;
+	background:url(http://steamke.ru/images/index_24.png) no-repeat left bottom;
+	text-align:left;
+	position:relative;
+	}
+ul.boxmenu li:hover{
+	background:#0068de url(http://steamke.ru/images/index_1354.png) no-repeat 95% center;
+	}
+ul.boxmenu li a{
+	display:block;
+	padding:10px 0 10px 15px;
+	color:#fff;
+	text-decoration:none;
+	font-family:Trebuchet MS, sens-serif;
+	font-size:16px;
+	}
+ul.boxmenu li ul.subboxmenu{
+	display:none;
+	}
+ul.boxmenu li:hover ul.subboxmenu{
+	display:block;
+	position:absolute;
+	left:259px;
+	top:0px;
+	background:#2a8eff url(http://steamke.ru/images/index_0315.png) repeat-x top;
+	padding:0 0 3px;
+	-moz-border-radius:0 5px 5px 0;
+	-webkit-border-radius:0 5px 5px 0;
+	-khtml-border-radius:0 5px 5px 0;
+	border-radius:0 5px 5px 0;
+	}
+ul.boxmenu li ul.subboxmenu li{
+	min-width:170px;
+	margin:3px 0 0 0;
+	padding:0;
+	background:url(http://steamke.ru/images/index_1877.png) repeat-y left;
+	}
+ul.boxmenu li ul.subboxmenu li:hover{
+	background:#0068de;
+	}
+ul.boxmenu li ul.subboxmenu li:hover a{
+	background:#0068de;
+	}
+ul.boxmenu li ul.subboxmenu li a{
+	display:block;
+	padding:8px 15px;
+	font-size:12px;
+	background:url(http://steamke.ru/images/index_0721.png) no-repeat center bottom;
+	}
+	/*--- special--------------------------------------*/
+div.special{
+	position:relative;
+	}
+div.special p{
+	margin:10px 0;
+	text-align:center;
+	}
+	
+#fLogos, #fLogos li,
+.bnav, .bnav li {display:block; padding:0; margin:0; list-style:none;}
+
+#fLogos { padding:14px 0 20px 0; clear: both; vertical-align:middle; text-align:center;}
+#fLogos * {vertical-align:middle;}
+#fLogos li {display:inline; margin:0 10px;}
+#fLogos li img {filter:alpha(opacity=10); opacity:0.5;}
+#fLogos li img:hover {filter:alpha(opacity=100); opacity:1.0;}
+	
+.benefits {
+	float: right;
+	border-right: 1px solid #cccccc;
+
+}
+.benefits li {
+	float: left;
+	font-size: 9px;
+	line-height: 13px;
+	text-transform: uppercase;
+	padding: 10px 10px 10px 40px;
+	margin: 0 10px;
+}
+.benefits li strong {
+	font-size: 12px;
+	display: block;	
+}
+.benefits a {
+	color: #000;
+}
+.benefits .delivery-icon {
+	background: url('http://steamke.ru/img/delivery-icon.png') no-repeat left center;
+}
+.benefits .testimonials-icon {
+	background: url('http://steamke.ru/img/testimonials-icon.png') no-repeat left center;
+}
+.benefits .success-icon {
+	background: url('http://steamke.ru/img/success-icon.png') no-repeat left center;
+}
+.benefits .best-prices-icon {
+	background: url('http://steamke.ru/img/best-prices-icon.png') no-repeat left center;
+}
+.benefits .actions-icon {
+	background: url('http://steamke.ru/img/actions-icon.png') no-repeat left center;
+}
+body {font-family:Georgia,Serif;}
+.spoiler-wrap{
+background: none repeat scroll 0 0 #E9E9E6;
+border-color: #C3CBD1;
+border-style: solid;
+border-width: 1px 1px 1px 2px;
+margin: 6px;
+width: 90%;
+}
+.spoiler-head {
+font-size: 11px;
+line-height: 15px;
+margin-left: 6px;
+padding: 1px 14px 3px;
+cursor: pointer;
+width: 97%; // для IE6
+}
+.folded {
+background: url('http://steamke.ru/images/icon_plus_1.gif') no-repeat scroll left center transparent;
+display: block;
+padding-left: 14px;
+}
+.unfolded {
+background: url('http://steamke.ru/images/icon_minus_1.gif') no-repeat scroll left center transparent;
+display: block;
+padding-left: 14px;
+}
+.spoiler-body {
+background: none repeat scroll 0 0 #F5F5F5;
+border-top: 1px solid #C3CBD1;
+padding: 1px 6px 2px;
+line-height: 20px;
+}	
+.guestMessage{
+	background:#00a1fb url("http://cs-expert.ru/public/style_images/marble/highlight.png") repeat-x 0 0;
+	border:1px
+solid #fff;
+	color:#fff;
+	font-size:13px;
+	line-height:140%;
+	-webkit-box-shadow:#fde5bb 0px 1px 4px;
+	-moz-box-shadow:#fde5bb 0px 1px 4px;
+	box-shadow:#fde5bb 0px 1px 4px;
+	margin-bottom:10px;
+	padding:10px;
+	text-shadow:rgba(255,255,255,0.55) 0px 1px 0px
+}
+
+.guestMessage
+a{
+	color:#fff;
+	text-decoration:none;
+	border-bottom:1px solid #fff;
+}
